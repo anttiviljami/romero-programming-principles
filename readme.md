@@ -42,7 +42,7 @@ thoroughly before checking in your code.
 
 As soon as you see a bug, you fix it. Do not continue on. If you don't fix
 your bugs your new code will be built on a buggy codebase and ensure an
-unstable foudnation.
+unstable foundation.
 
 ## Principle 7: Target less powerful systems
 
