@@ -70,3 +70,20 @@ and cause delays.
 Programming is a creative art form based in logic. Every programmer is
 different and will code differently. It's the output that matters.
 
+## Attribution and Fair Use
+
+This repository contains copyrighted material; the use of which has not been
+specifically authorized by the copyright owner. The repository is making such
+material available for the purpose of criticism, comment, review and news
+reporting which constitute 'fair use' of any such copyrighted material as
+provided in section 107 of the US Copyright Law. Not withstanding the
+provisions of sections 106 and 106A, the fair use of a copyrighted work for
+purposes of such criticism, comment, review and news reporting is not an
+infringement of copyright.
+
+The image used is used under [CC By 2.0](http://creativecommons.org/licenses/by/2.0). Image source:
+
+https://en.wikipedia.org/wiki/John_Romero#/media/File:John_Romero_-_Jason_Scott_interview_(6951215353)_(cropped).jpg
+
+All principles, except the headers in this document are attributed to
+John Romero, the Game Programmer God.
