@@ -1,3 +1,5 @@
+[<img src="/assets/romero.jpg" alt="John Romero" width="240">](https://en.wikipedia.org/wiki/John_Romero#/media/File:John_Romero_-_Jason_Scott_interview_(6951215353)_(cropped).jpg)
+
 # John Romero's Principles for Programmers
 
 Valuable programming principles from the early ID Software days as shared by
