@@ -62,7 +62,7 @@ mistakes and saves design time.
 
 Try to code transparently. Tell your lead and peers exactly how you are going
 to solve your current task and get feedback and advice. Do not treat game
-programming like each coder is a black box. The project cloud go off the rails
+programming like each coder is a black box. The project could go off the rails
 and cause delays.
 
 ## Principle 11: Embrace differences in programmers
