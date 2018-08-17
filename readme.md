@@ -9,9 +9,11 @@ Watch the talk here:
 
 https://www.youtube.com/watch?v=E2MIpi8pIvY
 
-Alternative video:
+Alternative videos:
 
 https://www.youtube.com/watch?v=Zc3VRjsZN-g
+
+https://www.youtube.com/watch?v=KFziBfvAFnM
 
 ## Principle 1: No prototypes
 
