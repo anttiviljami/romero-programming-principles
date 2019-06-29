@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+        <section>
+            <img src="assets/romero.jpg" style="max-height: 9em">
+            <h1>John Romero</h1>
+            <h3>My Programming Hero</h3>
+            <p>Tekkiwartti 17.8.2018</p>
+        </section>
+
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FMK0znPb6Dc?start=9" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+
+        <section data-markdown>
+          ![id software circa 1993](assets/jonromeroyoung.png)
+          # 1993
+        </section>
+
+        <section data-markdown>
+### "The Early Days of id Software"
+Links:
+
+https://www.youtube.com/watch?v=E2MIpi8pIvY
+
+https://www.youtube.com/watch?v=Zc3VRjsZN-g
+
+https://www.youtube.com/watch?v=KFziBfvAFnM
+
+        </section>
+
+        <section data-markdown>
+## [github.com/anttiviljami/romero-programming-principles](https://github.com/anttiviljami/romero-programming-principles)
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 1. No prototypes
+          </section>
+          <section data-markdown>
+No prototypes. Just make the game. Polish as you go. Don't depend on polish happening later. Always maintain constantly shippable code.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 2. Fallbacks on load failure
+          </section>
+          <section data-markdown>
+It's incredibly important that your game can always be run by your team. Bulletproof your engine by providing defaults upon load failure.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 3. Simplify
+          </section>
+          <section data-markdown>
+Keep your code absolutely simple. Keep looking at your functions and figure out how you can simplify further.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 4. Focus on tools
+          </section>
+          <section data-markdown>
+Great tools help make great games. Spend as much time on tools as possible.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+        ## 5. Don't rely on testers
+          </section>
+          <section data-markdown>
+We are our own best testing team and should never allow anyone else to experience bugs or see the game crash. Don't waste other's time. Test thoroughly before checking in your code.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 6. Fix bugs immediately
+          </section>
+          <section data-markdown>
+As soon as you see a bug, you fix it. Do not continue on. If you don't fix your bugs your new code will be built on a buggy codebase and ensure an unstable foundation.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 7. Target less powerful systems
+          </section>
+          <section data-markdown>
+Use a superior development system than your target.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 8. Don't write code for future projects
+          </section>
+          <section data-markdown>
+Write your code for this game only - not for a future game. You're going to be writing new code later because you'll be smarter.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 9. Write modular code
+          </section>
+          <section data-markdown>
+Encapsulate functionality to ensure design consistency. this minimizes mistakes and saves design time.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 10. Transparent coding
+          </section>
+          <section data-markdown>
+Try to code transparently. Tell your lead and peers exactly how you are going to solve your current task and get feedback and advice. Do not treat game programming like each coder is a black box. The project could go off the rails and cause delays.
+          </section>
+        </section>
+
+        <section>
+          <section data-markdown>
+          ## 11. Embrace differences in programmers
+          </section>
+          <section data-markdown>
+Programming is a creative art form based in logic. Every programmer is different and will code differently. It's the output that matters.
+          </section>
+        </section>
+
+        <section data-markdown>
+          ### Thanks! 
+        </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
